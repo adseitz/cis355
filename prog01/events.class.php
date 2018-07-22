@@ -366,7 +366,7 @@ class Events {//Start Class
             <body>
                 <div class='container'>
                     <p class='row'>
-                        <h3>$this->title" . "s" . " <a class='btn btn-danger' href=''>Github</a>
+                        <h3>$this->title" . "s" . " <a class='btn btn-danger' href='https://github.com/adseitz/cis355/tree/master/prog01'>Github</a>
                         <a class='btn btn-success' href='customer.php'>Customers</a>
                         </h3>
                     </p>
