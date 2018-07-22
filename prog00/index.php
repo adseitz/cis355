@@ -8,6 +8,9 @@
 
 <body>
     <div class="container">
+		<form action="https://github.com/adseitz/cis355/tree/master/prog00">
+    		<input type="submit" value="Go to Github" />
+		</form>
             <div class="row">
                 <h3>PHP CRUD Grid</h3>
             </div>
