@@ -339,9 +339,14 @@ class Customers {//Start Class
             </head>
             <body>
                 <div class='container'>
+					<a class='btn btn-primary' href='event.php' style=float:right;>Events CRUD</a>
+					<a class='btn btn-info' href='https://github.com/adseitz/cis355/tree/master/prog01' style=float:right;>Github</a>
+					</br></br>
                     <p class='row'>
-                        <h3>$this->title" . "s" . " <a class='btn btn-danger' href='https://github.com/adseitz/cis355/tree/master/prog01'>Github</a>
-                        <a class='btn btn-success' href='event.php'>Events</a>
+                        <h3>
+						<strong>
+						$this->title" . "s" . " 
+						</strong>
                         </h3>
                     </p>
                     <p>
