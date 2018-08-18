@@ -2,8 +2,7 @@
 
 /*
   filename  : courses.php
-  author    : george corser
-  course    : cis355 (winter2016)
+  course    : cis355 (summer 2018)
   description   : print fomatted output from JSON object
                   returned by SVSU Courses API
   input     : api.svsu.edu/courses
@@ -206,7 +205,8 @@ function printListing($apiCall) {
             if (!$roomMatch)
                 continue;
 
-            //checks day to allow search
+			
+            //checks day during search
             $day = strtoupper(trim($_GET['days']));
             $dayMatch = false;
 			
@@ -222,6 +222,7 @@ function printListing($apiCall) {
                 $dayMatch = true;
             if (!$dayMatch)
                 continue;
+			
 			
             // different <tr bgcolor=...> for each professor
             switch ($course->meetingTimes[0]->instructor) {
@@ -305,7 +306,7 @@ function printListing($apiCall) {
             if (!$roomMatch)
                 continue;
 
-            //checks day to allow search
+            //checks day during search
             $day = strtoupper(trim($_GET['days']));
             $dayMatch = false;
 			
@@ -404,7 +405,7 @@ function printListing($apiCall) {
             if (!$roomMatch)
                 continue;
 
-            //checks day to allow search
+            //checks day during search
             $day = strtoupper(trim($_GET['days']));
             $dayMatch = false;
 			
@@ -503,7 +504,7 @@ function printListing($apiCall) {
             if (!$roomMatch)
                 continue;
 			
-            //checks day to allow search
+            //checks day during search
             $day = strtoupper(trim($_GET['days']));
             $dayMatch = false;
 			
