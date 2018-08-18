@@ -64,7 +64,7 @@ function main() {
     // display button for course search
     echo '<center><a href="coursesearch.php" class="btn btn-primary">Search</a></center>';
     echo '</br>';
-    echo '<center><a href="https://github.com/adseitz/cis355/prog04" class="btn btn-primary">Github</a></center>';
+    echo '<center><a href="https://github.com/adseitz/cis355/tree/master/prog04" class="btn btn-primary">Github</a></center>';
 
     // close html body section
     echo '</body>';
