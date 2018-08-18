@@ -48,7 +48,7 @@ class Persons {//Start Class
             </body>
         </html>
                     ";
-    }// end create function
+    }// end create function 
 	
     function insert_record () { // inserts record info from 'create_record' into the database
 
