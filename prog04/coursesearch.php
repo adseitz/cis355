@@ -20,5 +20,6 @@ function printForm(){
     echo "<input type='text' placeholder='M, T, W, R' name='days'><br/>";
     echo "<input type='submit' value='Submit'>";
     echo "</form>";
+	echo "<form action='https://github.com/adseitz/cis355/tree/master/prog04' method='get'><button type='submit'>Github Link</button></form>";
 }
 ?>
