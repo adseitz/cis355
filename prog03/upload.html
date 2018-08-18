@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!-- simple upload form -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link   href="css/bootstrap.min.css" rel="stylesheet">
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <br>
+    <body>
+        <div class='container'>
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+            Select image to upload:
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <input type="submit" value="Upload Image" name="submit">
+            <br><br>
+            <a class='btn btn-primary' href='uploads'>Uploaded Pictures</a>
+            </form>
+        </div>
+
+    </body>
+</html>
