@@ -39,7 +39,7 @@ function main() {
         echo $_GET['prefix'] ? ' - Prefix: ' . strtoupper($_GET['prefix']) : "";
         echo $_GET['courseNumber'] ? ' - Course Number: ' . $_GET['courseNumber'] : "";
         echo $_GET['instructor'] ? ' - Instructor: ' . strtoupper($_GET['instructor']) : "";
-        echo $_GET['day'] ? ' - Day: ' . strtoupper($_GET['day']) : "";
+        echo $_GET['days'] ? ' - Day(s): ' . strtoupper($_GET['days']) : "";
         echo '</h2>';
     }
 
